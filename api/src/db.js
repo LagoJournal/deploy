@@ -6,11 +6,7 @@ const { DB_USER, DB_PASSWORD, DB_HOST, DB_PORT, PGDATABASE } = process.env;
 
 //postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/countries
 const sequelize = new Sequelize(
-  `postgres://${{ DB_USER }}:${{ DB_PASSWORD }}@${{ DB_HOST }}:${{
-    DB_PORT,
-  }}/${{
-    PGDATABASE,
-  }}`,
+  `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${PGDATABASE}`,
   {
     define: { timestamps: false },
     logging: false, // set to console.log to see the raw SQL queries
