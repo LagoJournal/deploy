@@ -167,7 +167,7 @@ const ActivityCreationPage = () => {
               <div className="displayErrors">{errors?.name}</div>
             </div>
             <div className="inputForm">
-              <label>Duration.</label>
+              <label>Duration [mins]</label>
               <input
                 type="number"
                 name="duration"
