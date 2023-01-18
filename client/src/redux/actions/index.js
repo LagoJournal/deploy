@@ -15,7 +15,7 @@ export const CLEAR_DETAILS = "CLEAR_DETAILS";
 
 export const getCountryName = (name) => {
   return function (dispatch) {
-    fetch(`http://localhost:3001/countries?name=${name}`)
+    fetch(`countries-backend-api.up.railway.app/countries?name=${name}`)
       .then((res) => res.json())
       .then((payload) => {
         dispatch({
@@ -34,7 +34,7 @@ export const getCountryName = (name) => {
 
 export const getCountries = () => {
   return function (dispatch) {
-    fetch(`http://localhost:3001/countries`)
+    fetch(`countries-backend-api.up.railway.app/countries`)
       .then((res) => res.json())
       .then((payload) => {
         dispatch({
@@ -47,7 +47,7 @@ export const getCountries = () => {
 
 export const getCountriesDetails = (id) => {
   return function (dispatch) {
-    fetch(`http://localhost:3001/countries/${id}`)
+    fetch(`countries-backend-api.up.railway.app/countries/${id}`)
       .then((res) => res.json())
       .then((payload) => {
         dispatch({
@@ -62,7 +62,7 @@ export const createActivity = (body) => {
   return async function (dispatch) {
     const { name, difficulty, duration, season, countryIds } = body;
     axios
-      .post("http://localhost:3001/activities", {
+      .post("countries-backend-api.up.railway.app/activities", {
         name,
         difficulty,
         duration,
