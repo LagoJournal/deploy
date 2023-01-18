@@ -1,0 +1,10 @@
+.card{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.flagCard{
+    height: 41px;
+}

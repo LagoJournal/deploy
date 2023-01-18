@@ -1,0 +1,18 @@
+:root{
+  --background-color: #1e1e1e ;
+  --details-color:#9CCB62 ;  
+  --2details-color:#FFb000;
+  --3details-color: #FF1F59;
+  
+  --titles-font-family: 'Teko';
+  --text-font-family: 'Sarpanch';
+  
+  /* #CCC541 */
+  /* #C0E4DC */
+  /*#FBF5EF*/
+  /*#9CCB62 green*/
+  /*#FF5833 orange */
+  /* whiteish #E7E7E7 */
+  background-color: var(--background-color);
+}
+

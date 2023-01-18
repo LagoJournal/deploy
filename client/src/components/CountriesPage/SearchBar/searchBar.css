@@ -1,0 +1,71 @@
+.secondaryBar{
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--details-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.25% 3.2% 0.25% 3.2%;
+    
+}
+
+.inputField{
+    border-radius: 4px;
+    border:solid var(--details-color) 1px;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: var(--titles-font-family);
+    font-weight: 600;
+    font-size: 24px;
+    width: 200px;
+    background-color: var(--background-color);
+    color: var(--2details-color);
+}
+
+.dropdown{
+    border-radius: 4px;
+    border: solid 1px var(--details-color);
+    font-family: var(--text-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 32px 0 0 0;
+    padding-left: 2px;
+    width: 150px;
+    background-color: var(--background-color);
+    color: var(--details-color);
+    cursor: pointer;
+}
+
+.dropdownContainer{
+    display: flex;
+    gap: 16px;
+    /* background-color: red; */
+    margin: 4px 0 4px 0;
+    color: var(--background-color)
+    
+    
+}
+
+.dropdownText{
+    font-family: var(--titles-font-family);
+    font-size: 32px;
+    font-weight: 500;
+    align-self: baseline;
+    background-color: var(--details-color);
+    margin: 0px;
+    padding: 1px 8px 1px 8px; 
+}
+
+.clearFilters{
+    display: flex;
+    padding: 1px 8px 1px 0;
+    background-color: var(--background-color);
+    border: 1px solid var(--3details-color);
+    font-family: var(--titles-font-family);
+    font-size: 24px;
+    color: var(--3details-color);
+    cursor: pointer;
+}
+
+.clearFilters:hover{
+    box-shadow: 1px 1px 0 0 var(--3details-color);
+}

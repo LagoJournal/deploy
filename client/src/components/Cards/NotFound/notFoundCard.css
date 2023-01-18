@@ -1,0 +1,14 @@
+.notFoundCard{
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1% 0 1% 0;
+    box-shadow: 1.5px 1.5px 0px 0px;
+    border: solid 1px var(--details-color);
+    font-family: var(--text-font-family);
+    font-weight: 700;
+    color: var(--details-color);
+    
+}
+

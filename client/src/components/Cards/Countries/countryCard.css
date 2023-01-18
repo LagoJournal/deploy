@@ -1,0 +1,43 @@
+.card{
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 8px 32px 8px 32px;
+    box-shadow: 1.5px 1.5px 0px 0px;
+    border: solid 1px var(--details-color);
+    font-family: var(--text-font-family);
+    font-weight: 700;
+    color: var(--details-color);
+    cursor: pointer;
+}
+.card:hover{
+    border: solid 1px var(--2details-color);
+    box-shadow: 1.5px 1.5px 0px 0px var(--2details-color);
+}
+.flagCard{
+    height: 41px;
+    width: 82px;
+    border: solid var(--details-color) 1px;
+}
+
+.infocard{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    text-align: center;
+    position: relative;
+        
+}
+.infoname{
+    position: absolute;
+    width: 100%;
+}
+
+.infoicon{
+    font-size: 20px;
+}
+.arrow{
+    padding-top: 2px;
+}

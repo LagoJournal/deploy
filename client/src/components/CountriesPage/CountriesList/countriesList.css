@@ -1,0 +1,60 @@
+.activityArrowContainer{
+    /* display: flex;
+    justify-content: flex-end; */
+    /* background-color: red; */
+    position:absolute;
+    margin: -0.25% 0 0 87% ;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 8% 2% 8%;
+    gap:10px;
+    
+
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    list-style: none;
+    margin: 2% 8% 2% 8%;
+    cursor: pointer;
+    
+}
+
+.pageNum{
+    border: solid 1px var(--details-color);
+    padding: 4px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+    font-family: var(--text-font-family);
+    font-size: 20px;
+    color: var(--details-color);
+    
+}
+.pageNum:hover{
+    border: solid 1px var(--2details-color);
+    box-shadow: 1px 1px 0 0 var(--2details-color);
+}
+.pageNumSelected{
+    border: solid 1px var(--2details-color);
+    padding: 4px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 0px 0 var(--details-color);
+    font-family: var(--text-font-family);
+    font-size: 20px;
+    background-color: var(--2details-color);
+    color: var(--background-color);
+}
+
+.pageArrow{
+    align-self: center;
+    margin-top: 2px;
+}

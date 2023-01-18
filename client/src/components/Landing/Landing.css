@@ -1,0 +1,48 @@
+
+.titlediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 16px;
+}
+
+.title{
+    color: var(--details-color);
+    font-family: var(--titles-font-family);
+    font-size: 200px;
+    margin: 20% 0 10% 0;
+    font-weight: 700 ;
+
+    
+}
+
+.button{
+    color: var(--details-color);
+    font-family: var(--text-font-family);
+    font-size: 36px;
+    background-color: var(--background-color) ;
+    border: solid 1px var(--details-color);
+    width: 148px;
+    box-shadow: 2px 2px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button:hover{
+    color: var(--2details-color);
+    border: solid 1px var(--2details-color);
+}
+
+.frontRes{
+    height: 600px;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-bottom: 1px var(--details-color) solid;
+}
+
+.globePNG{
+    width: 700px;
+    margin-top: 3%;
+}

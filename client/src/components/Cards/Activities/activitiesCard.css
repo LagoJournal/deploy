@@ -1,0 +1,27 @@
+.activityCard{
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 2% 8% 2% 8%;
+    box-shadow: 1.5px 1.5px 0px 0px;
+    border: solid 1px var(--details-color);
+    font-family: var(--text-font-family);
+    font-weight: 600;
+    color: var(--details-color);
+    margin-bottom: 1.5%;
+    /* gap:100px; */
+    
+}
+
+.activityDetails{
+    height: fit-content;
+    width: 20%;
+    display: flex;
+}
+
+.activityStats{
+    color: var(--2details-color);
+    margin-left: 5%;
+}

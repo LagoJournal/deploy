@@ -1,0 +1,147 @@
+.creationForm{
+    background-color: var(--background-color);
+    margin: 0 15% 2% 15%;
+    padding: 2%;
+    box-shadow: 2px 2px 0 0 ;
+    border: solid 1px var(--details-color);
+    color: var(--details-color);
+}
+
+.activityCreationTitle{
+background-color: var(--details-color);
+color: var(--background-color);
+width: max-content;
+padding: 1% 2% 1% 2%;
+font-family: var(--titles-font-family);
+font-size: 48px;
+font-weight: 700;
+}
+
+.activityForm{
+    margin: 4% 2% 2% 2%;
+    font-family: var(--text-font-family)
+}
+
+.inputForm{
+    font-size: 32px;
+    margin-bottom: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    
+    font-weight: 600;
+    
+}
+
+.countrycode{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 206px;
+    position: absolute;
+    margin-left: 24%;
+
+}
+
+.submitContainer{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submitButton{
+    font-family: var(--titles-font-family);
+    font-size: 32px;
+    font-weight: 600;
+    background-color: var(--background-color);
+    color: var(--details-color);
+    border: 1px solid var(--details-color);
+    padding: 0.5% 2% 0.5% 2%;
+    cursor: pointer;
+}
+
+.submitButton:hover{
+    box-shadow: 2px 2px 0 0 var(--details-color);
+}
+
+.addButton{
+    font-family: var(--titles-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    background-color: var(--background-color);
+    border: 1px solid var(--2details-color);
+    padding: 1% 4% 0% 4%;
+    color: var(--2details-color);
+    cursor: pointer;
+}
+.addButton:hover{
+    box-shadow: 2px 2px 0 0 var(--2details-color);
+}
+.countrieslist{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    margin: 0 12% 0 12%;
+}
+
+.inputBox{
+    background-color: var(--background-color);
+    border: solid 1px var(--details-color);
+    color: var(--details-color);
+    box-shadow: 1px 1px 0 0;
+    font-family: var(--text-font-family);
+    font-size: 18px;
+    width: 200px;
+    position: absolute;
+    margin-left: 24%;
+}
+
+.inputBoxCode{
+    background-color: var(--background-color);
+    border: solid 1px var(--details-color);
+    color: var(--details-color);
+    box-shadow: 1px 1px 0 0;
+    font-family: var(--text-font-family);
+    font-size: 18px;
+    width: 160px;
+}
+
+.inputBoxSelect{
+    background-color: var(--background-color);
+    border: solid 1px var(--details-color);
+    color: var(--details-color);
+    box-shadow: 1px 1px 0 0;
+    font-family: var(--text-font-family);
+    font-size: 18px;
+    width: 206px;
+    position: absolute;
+    margin-left: 24%;
+}
+
+.blur{
+    filter:blur(8px)
+}
+
+.displayErrors{
+
+    color: var(--3details-color);
+    font-family: var(--text-font-family);
+    font-size: 18px;
+    
+
+
+}
+
+.submitButtonLocked{
+    font-family: var(--titles-font-family);
+    font-size: 32px;
+    font-weight: 600;
+    background-color: var(--background-color);
+    color: var(--2details-color);
+    border: 1px solid var(--2details-color);
+    padding: 0.5% 2% 0.5% 2%;
+    cursor: pointer;
+    
+}
+

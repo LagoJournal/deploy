@@ -1,0 +1,23 @@
+.navbar{
+    background-color: var(--background-color) ;
+    height: 64px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid var(--details-color);
+}
+
+.logoButton{
+    font-family: var(--titles-font-family);
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 16px;
+    margin-top: 0.5%;
+}
+.logoLink{
+    text-decoration: none;
+    color: var(--details-color);
+}
+.logoLink:hover{
+    color: var(--2details-color)
+}

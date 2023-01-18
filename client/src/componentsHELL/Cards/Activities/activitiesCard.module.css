@@ -1,0 +1,6 @@
+.activityCard{
+    border-style: groove;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 40px 10px 40px;
+}
