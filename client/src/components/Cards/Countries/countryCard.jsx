@@ -45,7 +45,7 @@ const CountryCard = (params) => {
       <div className="infocard">
         <p>{id}</p>
         <p className="infoname">{name}</p>
-        <p>{subregion}</p>
+        <p className="infosubregion">{subregion}</p>
       </div>
       <p className="infoicon">{icon}</p>
     </div>

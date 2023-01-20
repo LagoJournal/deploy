@@ -3,7 +3,7 @@ import CountryCard from "../../Cards/Countries/countryCard";
 import { useSelector } from "react-redux";
 import NotFoundCard from "../../Cards/NotFound/notFoundCard";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default function CountriesList() {
   const countries = useSelector((state) => state.countries);
@@ -55,25 +55,6 @@ export default function CountriesList() {
 
   return (
     <div>
-      <div className="activityArrowContainer">
-        <Link className="activityArrow" to="/activity">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32px"
-            height="32px"
-            viewBox="0 0 24 24"
-            fill="none"
-          >
-            <path
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M18.0609 11.75L13.5285 16.2804L12.4681 15.2196L15.1888 12.5H6.00001V11H15.1888L12.4681 8.28045L13.5285 7.21955L18.0609 11.75Z"
-              fill="#FFb000"
-            />
-          </svg>
-          <p>ACTIVITY CREATION</p>
-        </Link>
-      </div>
       <div>
         <ul className="pagination">
           <li className="pageArrow" key="prev" onClick={handlePrev}>

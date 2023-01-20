@@ -41,3 +41,15 @@
 .arrow{
     padding-top: 2px;
 }
+/* 
+@media (max-width: 768px){
+    .infoname{
+        display: none;
+    }
+    .infosubregion{
+        display: none;
+    }
+    .card{
+        width: 32%;
+    }
+} */

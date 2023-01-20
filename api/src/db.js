@@ -5,6 +5,7 @@ const path = require("path");
 const { DB_USER, DB_PASSWORD, DB_HOST, DB_PORT, PGDATABASE } = process.env;
 
 //postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/countries
+//`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${PGDATABASE}`
 const sequelize = new Sequelize(
   `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${PGDATABASE}`,
   {
